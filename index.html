@@ -103,21 +103,11 @@
                 </div>
             </div>
 
-            <!-- Քարտ 6: Մյուլերթալի շրջան -->
-            <div class="bg-gray-900 rounded-lg shadow-xl overflow-hidden flex flex-col">
-                <img class="h-56 w-full object-cover" 
-                     src="x.jpeg" 
-                     alt="Մյուլերթալի շրջանի անտառ"
-                     onerror="this.src='https://placehold.co/600x400/262626/FFFFFF?text=Մյուլերթալ'">
-                <div class="p-6 flex-grow">
-                    <h2 class="text-2xl font-semibold text-white mb-3">Մյուլերթալի շրջան</h2>
-                    <p class="text-gray-300 leading-relaxed">
-                        Հայտնի է որպես «Լյուքսեմբուրգի Փոքր Շվեյցարիա»՝ իր անտառապատ լանդշաֆտների, քարանձավների և յուրահատուկ ժայռերի գոյացությունների շնորհիվ։
-                    </p>
-                </div>
-            </div>
-
-        </div>
+            git add -A
+            git commit -m "Save local changes before rebase"
+            git pull origin main --rebase
+            git push origin main
+            
 
     </div>
 
